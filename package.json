@@ -1,0 +1,44 @@
+{
+  "name": "lite-state-machine",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.0",
+  "description": "Zero-dependency finite state machine with strict transitions, lifecycle hooks, and emergency force() escape hatch.",
+  "type": "module",
+  "main": "FSM.js",
+  "types": "FSM.d.ts",
+  "exports": {
+    ".": {
+      "types": "./FSM.d.ts",
+      "import": "./FSM.js",
+      "default": "./FSM.js"
+    }
+  },
+  "files": [
+    "FSM.js",
+    "FSM.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "fsm",
+    "finite-state-machine",
+    "state-machine",
+    "state",
+    "transitions",
+    "lifecycle",
+    "hooks",
+    "game",
+    "lightweight",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
