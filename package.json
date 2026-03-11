@@ -1,5 +1,5 @@
 {
-  "name": "lite-state-machine",
+  "name": "lite-states",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
   "version": "1.0.0",
   "description": "Zero-dependency finite state machine with strict transitions, lifecycle hooks, and emergency force() escape hatch.",
