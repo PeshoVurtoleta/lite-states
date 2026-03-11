@@ -1,7 +1,7 @@
-# lite-state-machine
+# lite-states
 
-[![npm version](https://img.shields.io/npm/v/lite-state-machine.svg?style=for-the-badge&color=latest)](https://www.npmjs.com/package/lite-state-machine)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/lite-state-machine?style=for-the-badge)](https://bundlephobia.com/result?p=lite-state-machine)
+[![npm version](https://img.shields.io/npm/v/lite-states.svg?style=for-the-badge&color=latest)](https://www.npmjs.com/package/lite-states)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/lite-states?style=for-the-badge)](https://bundlephobia.com/result?p=lite-states)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Types-informational)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -23,13 +23,13 @@ Built for games, UI flows, and any system where state transitions must be predic
 ## Installation
 
 ```bash
-npm install lite-state-machine
+npm install lite-states
 ```
 
 ## Quick Start
 
 ```javascript
-import { FSM } from 'lite-state-machine';
+import { FSM } from 'lite-states';
 
 const fsm = new FSM('idle', {
     idle:     ['loading'],
@@ -142,7 +142,7 @@ fsm.force('idle'); // FSM Forced: playing -> idle
 ## TypeScript
 
 ```typescript
-import { FSM, type TransitionMap, type Disposer } from 'lite-state-machine';
+import { FSM, type TransitionMap, type Disposer } from 'lite-states';
 
 const transitions: TransitionMap = {
     idle: ['loading'],
