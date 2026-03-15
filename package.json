@@ -1,7 +1,7 @@
 {
   "name": "lite-states",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency finite state machine with strict transitions, lifecycle hooks, and emergency force() escape hatch.",
   "type": "module",
   "main": "FSM.js",
@@ -35,6 +35,15 @@
     "zero-dependency"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-states#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/lite-states.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/lite-states/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
   "devDependencies": {
     "vitest": "^1.0.0"
   },
